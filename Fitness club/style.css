@@ -1,0 +1,324 @@
+/* General Styling */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    color: #e94e77; /* Strong Pink/Red */
+    text-align: center;
+}
+
+a {
+    color: #1a1a1a;
+    text-decoration: none;
+}
+
+/* Header & Navigation */
+header {
+    background-color: #1a1a1a; /* Deep Black/Grey */
+    padding: 15px 40px;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 30px;
+}
+
+nav ul a {
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul a:hover {
+    color: #e94e77; 
+}
+
+/* Hero Section */
+.hero-section {
+    text-align: center;
+    padding: 100px 20px;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://placehold.co/1200x400/1a1a1a/e94e77/text=GYM+BACKGROUND');
+    background-size: cover;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+}
+
+.hero-section h2 {
+    color: white;
+    font-size: 2.5em;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #ffc300; /* Yellow/Gold Accent */
+    color: #1a1a1a;
+    padding: 12px 25px;
+    border-radius: 5px;
+    font-size: 1.1em;
+    margin-top: 20px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #e0ac00;
+}
+
+/* Main Content Layout */
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section {
+    padding: 40px 0;
+    text-align: center;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #ddd;
+    margin: 30px 0;
+}
+
+/* Schedule Table */
+.schedule-table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.schedule-table th, .schedule-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+}
+
+.schedule-table thead {
+    background-color: #e94e77;
+    color: white;
+}
+
+.schedule-table td {
+    background-color: #fcfcfc;
+}
+
+.note {
+    font-style: italic;
+    color: #666;
+    margin-top: 15px;
+}
+
+/* Trainer Profiles */
+.trainer-profiles {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.trainer-card {
+    background-color: white;
+    border-top: 4px solid #ffc300;
+    border-radius: 8px;
+    width: 300px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.trainer-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-bottom: 15px;
+}
+
+/* Membership Plans */
+.plan-cards {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 30px;
+}
+
+.plan-card {
+    background-color: white;
+    padding: 25px;
+    border-radius: 8px;
+    width: 350px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+.basic-plan {
+    border: 2px solid #ccc;
+}
+
+.featured-plan {
+    border: 3px solid #e94e77;
+    transform: scale(1.05); /* Make it stand out */
+}
+
+.plan-card .price {
+    font-size: 2em;
+    font-weight: bold;
+    color: #e94e77;
+    margin: 15px 0;
+}
+
+.plan-card ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+.plan-card li {
+    padding: 8px 0;
+    border-bottom: 1px dashed #eee;
+}
+
+.plan-button {
+    display: block;
+    background-color: #1a1a1a;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+    font-weight: bold;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+.plan-button:hover {
+    background-color: #333;
+}
+
+/* Blog Preview */
+.blog-preview {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.blog-preview article {
+    width: 45%;
+    text-align: left;
+    background-color: white;
+    padding-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.blog-preview img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+    margin-bottom: 10px;
+}
+
+.blog-preview h4 {
+    padding: 0 15px;
+    color: #1a1a1a;
+}
+
+/* Join Form */
+.discount-callout {
+    font-size: 1.1em;
+    color: #e94e77;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.membership-form {
+    max-width: 450px;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: left;
+}
+
+.membership-form label {
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.membership-form input[type="text"], 
+.membership-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    box-sizing: border-box; 
+}
+
+.membership-form input[type="checkbox"] {
+    width: auto;
+    margin-right: 10px;
+}
+
+.checkbox-label {
+    display: inline;
+    font-weight: normal;
+}
+
+.membership-form button {
+    background-color: #e94e77;
+    color: white;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 1.05em;
+    margin-top: 20px;
+}
+
+.feedback-message {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+#discount-status {
+    color: #008000; /* Green for discount success */
+}
+
+
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    font-size: 0.9em;
+}

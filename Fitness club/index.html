@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vyayam Shakti Gym - Fitness & Wellness in Ghaziabad</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <h1>Vyayam Shakti Gym</h1>
+            <ul>
+                <li><a href="#schedule">Classes</a></li>
+                <li><a href="#trainers">Trainers</a></li>
+                <li><a href="#plans">Membership</a></li>
+                <li><a href="#blog">Tips Blog</a></li>
+                <li><a href="#join">Join Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        
+        <section id="hero" class="hero-section">
+            <h2>Unleash Your Power. Join the Best Gym in Ghaziabad!</h2>
+            <p>State-of-the-art equipment, certified trainers, and classes for every goal.</p>
+            <a href="#plans" class="cta-button">View Plans & Pricing</a>
+        </section>
+
+        <hr>
+
+        <section id="schedule">
+            <h2>Weekly Class Schedule</h2>
+            <table class="schedule-table">
+                <thead>
+                    <tr>
+                        <th>Time</th>
+                        <th>Monday</th>
+                        <th>Wednesday</th>
+                        <th>Friday</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>6:00 AM</td>
+                        <td>**Power Yoga**</td>
+                        <td>Cardio Blast</td>
+                        <td>Zumba Dance</td>
+                    </tr>
+                    <tr>
+                        <td>7:00 PM</td>
+                        <td>**Strength Training**</td>
+                        <td>Body Pump</td>
+                        <td>CrossFit Basics</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p class="note">All classes are included in the Platinum Membership Plan.</p>
+        </section>
+
+        <hr>
+
+        <section id="trainers">
+            <h2>Meet Our Expert Trainers</h2>
+            <div class="trainer-profiles">
+
+                <div class="trainer-card">
+                    
+
+<img src="https://c.ndtvimg.com/2025-06/tf7qvc8g_ankit-baiyanpurias-journey-from-struggle-to-fitness-stardom_625x300_18_June_25.jpg" alt="Ankit Baiyanpuria">
+
+                    <h3>Ankit Baiyanpuria</h3>
+                    <p>Specialization: **Weight Loss & Nutrition**</p>
+                    <p>Experience: 8 Years. Certified Personal Trainer (CPT, Delhi).</p>
+                </div>
+
+                <div class="trainer-card">
+                    
+
+
+<img src="https://pbs.twimg.com/media/BrKUAJJCAAAwk7K.jpg" height="200" alt="Salman Khan">
+                    <h3>Salman Khan</h3>
+                    <p>Specialization: **Yoga & Mobility**</p>
+                    <p>Experience: 5 Years. Certified Yoga Instructor (CYI, Mumbai).</p>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <section id="plans">
+            <h2>Membership Options (Per Month)</h2>
+            <div class="plan-cards">
+                
+                <div class="plan-card basic-plan">
+                    <h3>Silver Plan</h3>
+                    <p class="price">**₹ 1,500**</p>
+                    <ul>
+                        <li>Access to Gym Floor</li>
+                        <li>Standard Equipment Use</li>
+                        <li>Mon-Fri Access (Off-Peak Hours)</li>
+                    </ul>
+                    <a href="#join" class="plan-button">Select Plan</a>
+                </div>
+
+                <div class="plan-card featured-plan">
+                    <h3>Platinum Plan (BEST VALUE)</h3>
+                    <p class="price">**₹ 2,800**</p>
+                    <ul>
+                        <li>**Unlimited Gym & Classes**</li>
+                        <li>Full-Time Access (All Hours)</li>
+                        <li>One Free Personal Session</li>
+                    </ul>
+                    <a href="#join" class="plan-button">Select Plan</a>
+                </div>
+            </div>
+        </section>
+        
+        <hr>
+
+        <section id="blog">
+            <h2>Fitness Tips & Wellness Blog</h2>
+            <div class="blog-preview">
+                <article>
+                    <img src="https://pprotein.imgix.net/production/a/recipes/PP_PB_Banana_WEB.jpg?ar=922.5%3A517.5&auto=format%2Ccompress&fit=crop&ixlib=php-3.1.0" width="500" alt="Healthy food plate">
+                    <h4>The Importance of Protein in Indian Diets</h4>
+                    <p>Find out the best vegetarian and non-vegetarian sources of protein readily available in India to fuel your muscle growth...</p>
+                </article>
+                <article>
+                    <img src="https://media.istockphoto.com/id/1142900322/photo/happy-female-runner-jogging-in-the-morning-in-nature.jpg?s=612x612&w=0&k=20&c=rlyEqzd5M2DvPNNwBX3wdF8omy3lsAB3jJBqXVr6ejo=" width="500" alt="Person running">
+                
+                    <h4>How to Master Running on Ghaziabad's Hot Days</h4>
+                    <p>Tips and hydration strategies to keep your outdoor cardio safe and effective during the summer months in UP...</p>
+                </article>
+            </div>
+        </section>
+        
+        <hr>
+
+        <section id="join">
+            <h2>Join Vyayam Shakti Today!</h2>
+            <p class="discount-callout">
+                **Exclusive Offer:** Are you a student? Check if you qualify for our **20% Student Discount!**
+            </p>
+            
+            <form id="membership-form" class="membership-form">
+                <label for="m-name">Your Full Name:</label>
+                <input type="text" id="m-name" required>
+
+                <label for="is-student">Are you a Student?</label>
+                <input type="checkbox" id="is-student"> <span class="checkbox-label">Yes, I am a student (Check for Discount!)</span>
+                
+                <p id="discount-status" class="feedback-message"></p>
+
+                <label for="m-plan">Preferred Plan:</label>
+                <select id="m-plan" required>
+                    <option value="">-- Select Your Plan --</option>
+                    <option value="Silver">Silver Plan (₹ 1,500)</option>
+                    <option value="Platinum">Platinum Plan (₹ 2,800)</option>
+                </select>
+
+                <button type="submit">Submit Membership Inquiry</button>
+                <p id="join-message" class="feedback-message"></p>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Vyayam Shakti Gym. Fitness Center located in Ghaziabad, UP.</p>
+        <p>Contact: info@vyayyamshakti.in</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
